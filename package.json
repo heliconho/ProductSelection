@@ -4,7 +4,7 @@
     "start": "webpack-dev-server",
     "build": "webpack -p",
     "test:live": "webpack-dev-server --config webpack.tests.config.js",
-    "heroku-postbuild": "ng build"
+    "heroku-postbuild": "npm build"
   },
     "devDependencies": {
         "@babel/core": "^7.6.4",
