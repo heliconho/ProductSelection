@@ -4,10 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Dockerfile" />
     <Compile Include="Database.fs" />
     <Compile Include="WebApp.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <PackageReference Include="Giraffe" Version="4.1.0" />
     <PackageReference Include="Saturn" Version="0.14.1" />
